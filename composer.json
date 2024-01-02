@@ -1,5 +1,5 @@
 {
-    "name": "caleeli/laravel-nayra",
+    "name": "harryCarpio/laravel-nayra",
     "description": "Laravel driver for Nayra",
     "type": "library",
     "license": "MIT",
@@ -28,6 +28,6 @@
         }
     },
     "require": {
-        "processmaker/nayra": "^1.9.4"
+        "processmaker/nayra": "^1.9.8"
     }
 }
