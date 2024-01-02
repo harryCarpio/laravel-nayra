@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Request extends Model
 {
+    public $process_id;
     protected $guarded = [];
     protected $keyType = 'string';
     public $incrementing = false;
