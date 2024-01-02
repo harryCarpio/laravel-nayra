@@ -34,6 +34,7 @@ class InstanceRepository implements ExecutionInstanceRepositoryInterface
         $processModel = $this->requestRepository->find($uid);
         $instance = $this->createExecutionInstance();
         $instance->setId($uid);
+        echo "loadExecutionInstanceByUid $uid";
         $process = $storage->getProcess($processModel->process_id);
         $dataStore = $storage->getFactory()->createDataStore();
         $dataStore->setData($processModel->data);
